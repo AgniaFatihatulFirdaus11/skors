@@ -1,0 +1,220 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.container-navbar {
+    background-color: #555;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #biodata {
+    background: red;
+    width: 300px;
+    height: 300px;
+} */
+
+
+.li-navbar {
+    font-size: 30px;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.li-navbar:hover {
+    background-color: blueviolet;
+    transition: .2s ease-in-out;
+    transition-delay: .3s ;
+    border-radius: 10px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.container-content {
+    background-color: #8888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+
+.a-content {
+    background-color: rgb(70, 70, 255);
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 30px 23px 5px 4px rgba(2,2,36,0.95);
+    -webkit-box-shadow: 30px 23px 5px 4px rgba(2,2,36,0.95);
+    -moz-box-shadow: 30px 23px 5px 4px rgba(2,2,36,0.95);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.a-galeri {
+    background-color: rgb(70, 70, 255);
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-size: 20px;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20%;
+    box-shadow: 30px 23px 5px 4px rgba(2,2,36,0.95);
+    -webkit-box-shadow: 30px 23px 5px 4px rgba(2,2,36,0.95);
+    -moz-box-shadow: 30px 23px 5px 4px rgba(2,2,36,0.95);
+}
+
+.a-content:hover {
+    background-color: rgb(103, 103, 233);
+    transition: .2s ease-in-out;
+    transition-delay: .3s ;
+    border-radius: 50px;
+}
+
+.a-galeri:hover {
+    background-color: rgb(103, 103, 233);
+    transition: .2s ease-in-out;
+    transition-delay: .3s ;
+    border-radius: 50px;
+}
+
+.img-content {
+    width: 50%;
+    height: 50%;
+   
+}
+
+.img-galeri {
+    width: 100%;
+    height: 100%;
+}
+
+.img-galeri-c {
+    width: 100%;
+    min-height: 100%;
+}
+
+.img-galeri-3 {
+    width: 100%;
+    min-height: 100%;
+}
+
+.img-galeri-f {
+    width: 100%;
+    min-height: 100%;
+}
+
+.img-about {
+    background-color: rgb(190, 182, 182);
+    
+    width: 500px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 30px 23px 5px 4px #8888;
+    -webkit-box-shadow: 30px 23px 5px 4px #8888;
+    -moz-box-shadow: 30px 23px 5px 4px #8888;
+    margin-left: 500px;
+    margin-right: 50px;
+    
+
+}
+
+.container-foter {
+    height: 10vh;
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h1-foter {
+        font-size: 40px;
+}
+
+.a-about {
+    background-color: rgb(230, 219, 219);
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 720px;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 30px 23px 5px 4px #8888;
+    -webkit-box-shadow: 30px 23px 5px 4px #8888;
+    -moz-box-shadow: 30px 23px 5px 4px #8888;
+    margin-left: 50px;
+    margin-right: 500px;
+    
+}
+
+.h3-praf {
+    margin-left: 2px;
+    font-variant: initial;
+ 
+}
+
+.container-about {
+    height: 80vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-navbar-galeri {
+    background-color: rgb(236, 75, 75);
+    width: 100%;
+    height: 10vh;
+}
+
+.container-foter-galeri {
+    height: 10vh;
+    background-color: rgb(236, 76, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-galeri {
+    background-color: rgb(236, 8, 78);
+   
+    
+    height: 80vh;
+
+}
